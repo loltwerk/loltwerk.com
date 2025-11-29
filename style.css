@@ -151,6 +151,10 @@ section { padding: 100px 0; border-bottom: 1px solid #1a1a1a; }
 .caption { margin-top: 15px; font-size: 0.8rem; color: #666; font-style: italic; display: block; border-left: 2px solid #333; padding-left: 10px; }
 
 /* 11. CONTACT & FOOTER */
+.contact {
+    position: relative;
+    z-index: 10;
+}
 .contact { text-align: center; background: #050505; }
 .email-link {
     font-size: 2rem; font-weight: 900; color: #fff;
